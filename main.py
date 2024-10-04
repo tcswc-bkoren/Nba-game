@@ -138,6 +138,16 @@ def main():
 
 
 
+      print("Hint 8: There field goal percentage is: ", Player_FGP)
+    guess = input("Enter a guess: ").lower()
+
+    if guess == player_name:
+        return print("Correct!")
+    else:
+        print("Incorrect!")
+
+
+
     print(player_name)
 
 main()
